@@ -1,5 +1,5 @@
 # AWS Lambda Hello World
-![AWS Lambda Banner](Lambda/lambda-banner.png)
+![AWS Lambda Banner](Lambda/lambda_banner.png)
 
 ## Project Overview
 
@@ -29,6 +29,7 @@ The function was written in Python and tested directly from the Lambda console. 
 
 # Project Workflow
 
+```
 User
 
 ↓
@@ -42,6 +43,7 @@ Execute Python Function
 ↓
 
 CloudWatch Logs
+```
 
 ---
 
@@ -49,11 +51,11 @@ CloudWatch Logs
 
 Created a Lambda function named:
 
-HelloLambda
+HelloWorld
 
 Screenshot:
 
-![Create Function](Lambda/Create_function.jpeg)
+![Create Function](Lambda/create_function.png)
 
 ---
 
@@ -61,7 +63,7 @@ Screenshot:
 
 The default code was replaced with a simple Hello World Lambda function.
 
-![Lambda Function](Lambda/helloworld_function.jpeg)
+![Lambda Function](Lambda/helloworld_function.png)
 
 Example code:
 
@@ -82,7 +84,7 @@ def lambda_handler(event, context):
 
 A test event was created inside the Lambda console to invoke the function.
 
-![Test Event](Lambda/test_event.jpeg)
+![Test Event](Lambda/test_event.png)
 
 ---
 
@@ -90,7 +92,7 @@ A test event was created inside the Lambda console to invoke the function.
 
 The Monitor tab was used to observe function execution metrics.
 
-![Monitor](Lambda/monitor_event.jpeg)
+![Monitor](Lambda/monitor_event.png)
 
 ---
 
@@ -98,7 +100,7 @@ The Monitor tab was used to observe function execution metrics.
 
 CloudWatch Logs confirmed that the Lambda function executed successfully.
 
-![CloudWatch Logs](screenshots/log_event.jpeg)
+![CloudWatch Logs](Lambda/log_event.png)
 
 ---
 
